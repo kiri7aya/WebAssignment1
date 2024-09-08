@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.person p {
+    font-family: 'Roboto', sans-serif; /* Apply the Google Font to the person description */
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    color: #333; /* Optional: Change the color for better visibility */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.person {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    flex: 1;
+    text-align: center;
+}
+
+.person img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.buttons {
+    margin-top: 1em;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.6em 1.2em;
+    border: none;
+    background-color: #6c757d; /* Gray color */
+    color: white;
+    border-radius: 20px; /* Rounded corners */
+    text-decoration: none;
+    margin-right: 0.5em;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #5a6268; /* Darker gray for hover effect */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+}
